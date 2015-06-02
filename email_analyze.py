@@ -38,7 +38,7 @@ CFG_mail_account = "gmail@chucknorris.com"
 CFG_mail_passwd = "thesecretpassword"
 
 CFG_imap_folder = '"[Gmail]/All Mail"'   # imap folder to analyze
-CFG_imap_download_lastdays = 365 * 0.5    # download emails from last x days
+CFG_imap_download_lastdays = 365 * 5    # download emails from last x days
 
 CFG_name_analyze = "Chuck Norris"  # to distinguish sent and received emails, probably better to analyze the headers
 CFG_date_start = datetime.datetime(2013,9,1, tzinfo=dateutil.tz.tzlocal())
