@@ -208,6 +208,7 @@ def weekdayPlot(df, days_span):
         ax_.set_ylim((0,24))
         ax_.yaxis.set_major_locator(mpl.ticker.MultipleLocator(4))
         ax_.yaxis.set_major_formatter(mpl.ticker.FormatStrFormatter('%0.0f:00'))
+        ax_.invert_yaxis()
     fig.tight_layout() 
     
     
