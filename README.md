@@ -11,3 +11,8 @@ The script can be run with the comman parameter "-s" or "--save", then the plot 
 Requires seaborn version >=0.6 (dev at this time).
 
 Released under GPL.
+
+
+## Related projects:
+- [Gmail Meter](http://gmailmeter.com/)
+- [Glowing Python blog post](http://glowingpython.blogspot.com/2012/05/analyzing-your-gmail-with-matplotlib.html)
